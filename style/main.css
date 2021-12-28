@@ -11,9 +11,11 @@
 	box-sizing: border-box;
 }
 
+/* Estilizacao base */
 body {
   background: var(--netflixBlack);
 	font-family: 'Spline Sans', Times, serif;
+	color: #fff;
 }
 
 header .container {
@@ -37,6 +39,68 @@ header nav a {
 }
 
 header nav a:hover {
-	color: #fff;
+	color: rgba(255, 255, 255, 0.521);
 	transition: all 0.3s ease-in-out;
+}
+
+/* Estilizacao do conteudo principal */
+.main-view {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 18px;
+	background: 
+		linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),
+		url('../img/ozark/ozark_background.jpg');
+	height: 600px;
+	background-size: cover;	
+}
+
+.main-view .container {
+	margin-left: 5%;
+	width: 60%;
+}
+
+.main-view_logo {
+	margin-top: 5%;
+}
+
+.main-view .main-description {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	min-width: 10%;
+	max-width: 400px;
+	font-size: 20px;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px;
+	margin-right: 15px;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.button svg {
+	margin-right: 5px;
+}
+
+.play-button {
+	background-color: white;
+	color: black;
+}
+
+.play-button:hover {
+	background-color: rgba(255, 255, 255, 0.651);
+}
+
+.info-button {
+	background-color: rgba(90, 90, 90, 0.411);
+}
+
+.info-button:hover {
+	background-color: rgba(90, 90, 90, 0.233);
 }
