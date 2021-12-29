@@ -58,8 +58,11 @@ header nav a:hover {
 }
 
 .main-view .container {
-	margin-left: 5%;
 	width: 60%;
+}
+
+.container {
+	margin-left: 3.5%;
 }
 
 .main-view_logo {
@@ -104,3 +107,5 @@ header nav a:hover {
 .info-button:hover {
 	background-color: rgba(90, 90, 90, 0.233);
 }
+
+/* Corossel CSS */
