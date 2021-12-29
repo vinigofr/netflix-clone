@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .buttons button {
+        margin-top: 10px;
+        width: 190px;
+    }
+}
