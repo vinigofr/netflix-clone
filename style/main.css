@@ -62,7 +62,7 @@ header nav a:hover {
 }
 
 .container {
-	margin-left: 3.5%;
+	margin-left: 50px;
 }
 
 .main-view_logo {
@@ -109,3 +109,8 @@ header nav a:hover {
 }
 
 /* Corossel CSS */
+.box-film {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
