@@ -8,4 +8,4 @@
 
 Todas as referencias que se fizeram necessarias estao comantadas em codigo.
 
-O clone pode ser visualizado no seguinte link: !(https://vinigofr.github.io/netflix-clone/)[https://vinigofr.github.io/netflix-clone/]
+O clone pode ser visualizado no seguinte link: ![https://vinigofr.github.io/netflix-clone/](Link)
