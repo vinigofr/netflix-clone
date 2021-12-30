@@ -139,3 +139,39 @@ Fonte: https://stackoverflow.com/questions/34233865/css-linear-opacity */
 .card-item {
 	cursor: pointer;
 }
+
+.card-item .box-film {
+  border-radius: 3px;
+}
+
+.row-content {
+	margin: 40px 40px;
+}
+
+.row-content h3 {
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+/* Footer (rodape) */
+footer {
+  width: 100%;
+  height: 80px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.social-icon {
+  width: 50px;
+}
+
+.line {
+  width: 90%;
+  margin: 20px auto 20px;
+
+}
